@@ -1,0 +1,47 @@
+{
+  "name": "FirstWorkFlow_Drajan",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "PDF_Activities": "[1.0.2]",
+    "UiPath.Excel.Activities": "[2.8.3-beta.890325]",
+    "UiPath.GSuite.Activities": "[1.4.0]",
+    "UiPath.Mail.Activities": "[1.8.3-beta.889642]",
+    "UiPath.PDF.Activities": "[3.2.2]",
+    "UiPath.System.Activities": "[20.4.0-beta.889657]",
+    "UiPath.UIAutomation.Activities": "[20.4.0-beta.891721]",
+    "UiPathTeam.PDF.Extensions.Activities": "[2.4.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": ".settings\\Exception\\GlobalHandler.xaml",
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a0b329c7-1917-4d10-844b-c83f745f7575",
+        "fileName": ".settings\\Data Manupulation\\TestCase.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic"
+}

@@ -1,0 +1,247 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="ElementExtraction" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="859.333333333333,800.666666666667" sap2010:WorkflowViewState.IdRef="ElementExtraction_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="21">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="16">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Flowchart DisplayName="ElementExtraction" sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Size x:Key="ShapeSize">60,74.6666666666667</av:Size>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.1666666666667 300,107.166666666667 480,107.166666666667 480,125.333333333333</av:PointCollection>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Flowchart.StartNode>
+      <x:Reference>__ReferenceID0</x:Reference>
+    </Flowchart.StartNode>
+    <FlowStep x:Name="__ReferenceID0">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">380,125.333333333333</av:Point>
+          <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="Sequence - Get text using Screen Scraping" sap:VirtualizedContainerService.HintSize="200,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="x:String" Name="valueFromPdf" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'ScrollBar'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="GetValue_1">
+          <ui:GetValue.Target>
+            <ui:Target Element="{x:Null}" Id="5db1b313-140e-434c-8a07-8703ac221d31" InformativeScreenshot="159e942049e3c8921886a9aa4c8d226e" Selector="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='file_example_PDF.pdf - Adobe Acrobat Reader DC' /&gt;&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='ScrollBar' idx='2' /&gt;">
+              <ui:Target.ClippingRegion>
+                <ui:Region Rectangle="11, 66, 1, 68" />
+              </ui:Target.ClippingRegion>
+              <ui:Target.TimeoutMS>
+                <InArgument x:TypeArguments="x:Int32" />
+              </ui:Target.TimeoutMS>
+              <ui:Target.WaitForReady>
+                <InArgument x:TypeArguments="ui:WaitForReady" />
+              </ui:Target.WaitForReady>
+            </ui:Target>
+          </ui:GetValue.Target>
+          <ui:GetValue.Value>
+            <OutArgument x:TypeArguments="x:String">[valueFromPdf]</OutArgument>
+          </ui:GetValue.Value>
+        </ui:GetValue>
+        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[valueFromPdf]" />
+      </Sequence>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">20,115.333333333333</av:Point>
+          <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="Screen Scraping - Extracting a single piece of data" sap:VirtualizedContainerService.HintSize="200,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="ui:GenericValue" Name="TextLorem" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'File_exam Acrobatsd'" sap:VirtualizedContainerService.HintSize="434,442.666666666667" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="995ea8aa9bb90a1584437f8fee7e7152" Selector="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='file_example_PDF.pdf - Adobe Acrobat Reader DC' /&gt;">
+          <ui:WindowScope.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,296.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:GetFullText DisplayName="Get Full Text 'text Lorem'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="GetFullText_1" IgnoreHidden="False">
+                  <ui:GetFullText.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9c71ae87-03d8-4b9a-b32e-1a341d372bf1" InformativeScreenshot="0543e4f577b8ea691310d0c0c68f3e1c" Selector="&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Lorem ipsum dolor sit amet, consectetur adipiscing   elit.   ' role='text' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:GetFullText.Target>
+                  <ui:GetFullText.Text>
+                    <OutArgument x:TypeArguments="ui:GenericValue">[TextLorem]</OutArgument>
+                  </ui:GetFullText.Text>
+                </ui:GetFullText>
+                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[TextLorem]" />
+              </Sequence>
+            </ActivityAction>
+          </ui:WindowScope.Body>
+        </ui:WindowScope>
+      </Sequence>
+    </FlowStep>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">20,215.333333333333</av:Point>
+          <av:Size x:Key="ShapeSize">200,69.3333333333333</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="Screen Scraping - Anchor Base" sap:VirtualizedContainerService.HintSize="768,725.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="ui:GenericValue" Name="TextLorem" />
+          <Variable x:TypeArguments="x:String" Name="outputText" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - using Find element selectors" sap:VirtualizedContainerService.HintSize="726,198" sap2010:WorkflowViewState.IdRef="AnchorBase_1">
+          <ui:AnchorBase.Action>
+            <ActivityAction x:TypeArguments="ui:Anchor">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
+              </ActivityAction.Argument>
+              <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'text Lorem'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="GetValue_2">
+                <ui:GetValue.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1eb9b8e7-1ef5-4bcf-92c7-56befbf27444" InformativeScreenshot="a063825820929bccb7424c6a2ce1630c" Selector="&lt;ctrl role='text' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:GetValue.Target>
+                <ui:GetValue.Value>
+                  <OutArgument x:TypeArguments="x:String">[outputText]</OutArgument>
+                </ui:GetValue.Value>
+              </ui:GetValue>
+            </ActivityAction>
+          </ui:AnchorBase.Action>
+          <ui:AnchorBase.AnchorProvider>
+            <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'text  Lorem ipsum'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
+              <ui:WaitUiElementAppear.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d6d45c4e-f1b2-40ee-9c05-ee2ace2dc1aa" InformativeScreenshot="fd0af5a37ce3965b6250ce8def6645c7" Selector="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='*.pdf - Adobe Acrobat Reader DC' /&gt;&lt;wnd aaname='Document Pane' cls='AVL_AVView' title='AVScrolledPageView' /&gt;&lt;wnd cls='AVL_AVView' title='AVPageView' /&gt;&lt;ctrl name='Lorem ipsum   ' role='text' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:WaitUiElementAppear.Target>
+            </ui:WaitUiElementAppear>
+          </ui:AnchorBase.AnchorProvider>
+        </ui:AnchorBase>
+        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="726,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[outputText]" />
+        <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base - Find element using IMAGE SELECTOR" sap:VirtualizedContainerService.HintSize="726,198" sap2010:WorkflowViewState.IdRef="AnchorBase_2">
+          <ui:AnchorBase.Action>
+            <ActivityAction x:TypeArguments="ui:Anchor">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="ui:Anchor" Name="ContextAnchor" />
+              </ActivityAction.Argument>
+              <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'text Lorem'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="GetValue_3">
+                <ui:GetValue.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1eb9b8e7-1ef5-4bcf-92c7-56befbf27444" InformativeScreenshot="a063825820929bccb7424c6a2ce1630c" Selector="&lt;ctrl role='text' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:GetValue.Target>
+                <ui:GetValue.Value>
+                  <OutArgument x:TypeArguments="x:Object">[outputText2]</OutArgument>
+                </ui:GetValue.Value>
+              </ui:GetValue>
+            </ActivityAction>
+          </ui:AnchorBase.Action>
+          <ui:AnchorBase.AnchorProvider>
+            <ui:WaitImageAppear FoundElement="{x:Null}" DisplayName="Find Image 'AcroRd32.exe file_examp...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitImageAppear_1">
+              <ui:WaitImageAppear.Image>
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.5" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAa0AAABZCAYAAACNInuMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAA0FSURBVHhe7Z2/a+NIG8fzb7hOu911V7lKc83bXLOFizRXXPF2hnTbbWFItdWCIRwcLARBYLkmYLZZeAm4u8IEXl6WI7i5YgkpjmUxzyvZcqzYsuY7+pWM9fnA09w5Wo00z3xmRiPNkQEAAAQC0gIAgGBAWgAAEAxICwAAggFpAQBAMCAtAAAIBqQFAADBgLQAACAYkBYAAAQD0gIAgGBAWgAAEAxICwAAggFpAQBAMCAtAAAIBqQFAADBgLQAACAYkBYAAAQD0gIAgGBAWgAAEAxICwAAggFpAQBAMCAtAAAIBqQFAADBgLQAACAYkBYAAAQD0gIIlu82j36xo6OjgujbaPqQ/h4gfJAWQLAgLegeLUnrwaajfk5CZePYBtFf6e8BwA3Sgu6BtACCBWlB90BaAMGCtKB7IC2AYEFa0D2QFgAABAPSAgCAYEBaAAAQDEgLAACCAWkBAEAwIC2Vh1ubRJFFlyMb9PLOP4lXNhj9blH8u6vp3Bbpn7bNYj61q53zjM9t/Gd8J0qwmNv0Ki579N6G/V7mmOvoWX/4Pv7/Vza5vU//6BlIz/NyNLDe1jn2BiO7jP6w6fxb+mMXi/iWf9pT5vQ+X01t/lw3+cVwb7eTq711w/+6+7Gs60le7q2bSazrZ/w77tkugeUN0iokScgPNhq8yjlfJU5sOP5YIWH/smhwnHPcTRyPpvY9/bXZN5tP3lg/53fLGEQ2T3/pJj7W9KONhyf5xyqK/tDGk9tygvQuc0J8n67PCzoT2YgT5/xzYdIs5jd2oZa7N7Dzm+fqoNS15N19zXfqTtLQRUUduO1IxPFbPfJaNrJFknJFci5j/w7W96mNjvOOlwmvHEuZRzbIO1Ymduv8Nt3JG6SVS9JbiCokxXbE8rq4KdG7EK7bY5LE5zw93y+sJNSEephZVEZWW9EbvLMb70bKXebecBKnW8riziZn/ufaG1zY7GH7hsTXcHbh0RCvo8IothJ1SUuoZ8cjm6Yt3mL+2c7LduR6pzaelR2NJx2p32rMy0Rekd3u1IM9vGhpdSdvkNYO9zYbn+4Mk+sI/0bcQ1oPNzZyJbMzoeqWdRz9M4u8erQeZbav8W9/yv+NEL3TyO4y+be4i+zUO/HWcWJnk7v4CrbJM0hLqWeuKCWu5vLyqP/GJkpeBi6tQ8kbpJWlZO/DK9QEWaJWxG92F/3qTujChCrbWxKikTILI0tn/GDDyd+rf3bxxaLTstPAafTObHLfprZalFZStq//q36N1tH71aI7tU6I9btK9M9t6hpxHYS0ws8bpPVIgz257VASZIlw3ZIe8LeZjU+E3m9RQtXRgy6I7d7ZfsQyf63pfE/Gdruoq1Hs2cl41uJoq0VpHcWjo+htxcbuaTyZriqgWk9eD+f5hC6tA8kbpLXEp/eRLK6Idh/iLlcXqg+He9Yf3cRXxYVSEd/a5D/iue9NKHW6IG9hSbJYJRIWbLyy0+iLUDGVMr+xyw919bx/tvH0U33CXiZzWpTGqUtaynG2Y7US7OkqWd+FS/G1v/0n/dt9/GO3459z/jYbq3OJ9i3+kXPzp/hafU3/KIfgpXUYeYO0EtRRhjLNJS9icCTIEiFhj3+x4b9/yPy3PSsWk8TNTWpR2M6yCyNVaRpAKHPvR+v/uLlfybLcKNt4xmW9zlm+mx+v7PXgX09+2xuc23WmU+K1KkpqiOvimaTlXPmlz1pUH90oeZTy8KeNHUItPJ8XLa3u5A3SUufLfZ7LiPO87ukRz8bEe9FDwt82GWallxPy8wfXiE2ZBvArc/5qpoQyUxfxCPjses8qT3U02mY9fg5piSNm9fmwoyOzuB3bSd7fpaFOMa5xTjVmVknu8KKl1Z28QVoL5XmQR28uRZuHd/UufCqi/zkmuBoFfSoz5X5iw6JyO6cBPMrsejbo+5DYdTxxRO5uYOqifWnpzybVHMg81M/h+3Rkx7l/twr/a53ppCXvEy5fTF6H4+X4Q5FW4HnTcWkt4jb2zNmr8EnUDcIIxjnyUCuip1geUZ4X+E53ucpdl6iVHr92f1dR3HiuUK5XHGUarlK0LS3fjpGSA8WNlUtaviOtShyEtMLPm45LS7mYyk3Jx5Vwyyi8UWpFLPscRfgSQtF0SS6uCu+6z2KZ1WWyrpHfOsQHwdXvaZ20LC3vRSZi41dwXPf1bvH9uEOQ1gHkTbelJU0NlhVCjHLjCytRU41JSkNJWO05hFZmuYct3WN9akJpYPxFX5Z2pVVqVKNcr4IccE9fJ5GsHvzQ/HcvD0Bah5A33ZaWIpUqDVBlKWoVUa442wgVqZGGqlCySpl93usQRpM+o2ml4TpIaZXMT+V6Hf1i0XzPBVN7/I+RrJ69tKiJj/QGL63DyJtOS0vqxZWphI8oc/pFjUqDjUmMNGRvIiqPLn2mbJW6pzTsKZ2Vlsc1eoLS+BUdu9onh5bPe9MvvFfeeSF4aR1G3nRaWkqjXWqk8UjVcjfZmPg8bK07CnrWtZdZuQdF57NNE88By9KmtHyuUZaq0opraq1fxEhfRC6zPUbw0jqMvOmwtJSbXGHqbclLlpZW/mai6pQo0lpR17VSjlNWWspsgyv36/heXl4kU4mTA/nKe3fyBmnlnssmqklLWZ3YRWkVnXN3kq86dV0r5ThlpVVX7n+z+c27Zj7orO7thLS2AmkhrR3qrohZtPI3E0irHuq6VspxnltaK/w+DeQTwtJ5pLUVSOsApVW13HVXxCxa+ZsJpFUPdV0r5ThlpVXH9OA2C1tu6T4e1jxl6Hh5GmltBdJqWVpJHWz6RdGXLC2t/NWkXQakpROCtITrVaEOPwos+t3j6/IFUfQ6RkPSUlYxI60NnZbWYSx5L5/wSGsdSKuxeia9q1i+Du+yllhkl/IXy7NRsCy8IWnVk4dIq2ZeprRexsvFRTe+WWnFB3dOS1STdhmQlk6b0vJ5xyeD0tB7Xf8SLPfT0kdiewWhlMX76zTad/mQ1oZuS6vyFyscVJZiw9JSkrC1BngN0tJpU1rlRt3SbEZr10tcgbivo6bki/ptv0eqf1R4BdKqmRcqLamX47cV9Abt5d3il5cblpaUMA33gndAWjrtSst/FCG+wN7qaF7YL2rf/ZNGjX6dXPXFaaS1oePSEnuCpT5IqwjBNeXStLSU45ecFipNd5KvOnVdK+U4SfjOOig5ULZTWAHXtPi++yfNzPiUR/9EFdLa0HlpaRXRdx8h8Q1+51RC3RVxF6mn5yXt7Oh18923J5G77f8apKXTtrT8PmsmdQiVTtHymdS6/ry3YbKhoPc0XAaXtPaO/LSpPG2nb7+vfCCtDUhL3V7atTtnFmmnTqVH1ry0tEQUt1hPcJbdVW6kpdO+tOT9q9Tdb/fKx3Xfym586p6y3C9mbdFEEvu3s0+IhTW78Pq6B9La8IKk1XQUXGBxO+je4J3dOLY7WMw/27mySknqKbYhLbXHJzRWDzOLXF8raH10ibTqlVYcvVMbz4rGW/c2G5+6O4KFHRilXvpvALmYX9tZYa4Xj/ykdzvXkWzn/2RWIS7T7afdpfj91zZwtD9IawPSWuIzVE8+svlxa6+eVWXU39BXRy5tSCtBnPZIp/t2tnhYTt+k0za5f7cOpdxIS+eZpLWMvI0X7+128kF/ydc1jSY+Q1pNQX8q+PBtcl5XWn66OlViB1ePJCdikTnqFNLagLQeUXuHVcNnWqMtaSk90OrRO43szmlqpKXTprRe29tRnfmhTI/7dCbrCKVTpU8RSrF87PDFWaeQ1gaklWVxZ5OzJj7GuY5YWGfXHvv4tCetZQPhOc/uFf03NpF2kkVaOm1KK75Gd//VnlMJUfzMJ0vVTSDV8MjN2kZb6wVe7jqFtDYgrR2aGnG9ssH5Z8+N59qUVkIz4lKeBW5AWjotSyu+RrWMyOUOTMpibjfnZT7JpIZvZ7KOEWB2VOeennev2kRaNROStBKSZ1SR8IxGjP7QLkpt9d22tFbUt/3DSxA10qpTWglVxOXXgclyb7fX5/XPBPQGNrouegVjH1X29zqxYTTL/JtCHXW+gI20aiY0aa3xfLC8Fb3ByC4L30ly8TzSWhEn5TQqWfa8h/QqSEvneaS1JB79TC98tgaJG+qLG88OTA7Jop/LUXV5JSv7ymy5v4VvB683OLfrnbwQnpMhrUdaklb4LOZTu0pebixKmCQRli9AFq1kCpD1y51K2WtoCKBtlAZvz9cwEnldxfc9d2VestL2srE68ZiT0aWNHeJYdiAby81kZmb/9iirf/uqZCcOtkFaAJ2n7l46QHMgLYDOg7QgHJAWQOdBWhAOSAug8yAtCAekBdB5kBaEA9IC6DxIC8IBaQF0HqQF4YC0ADoP0oJwQFoAnQdpQTggLYDOg7QgHJAWQOdBWhAOSAug8yAtCAekBQAAwYC0AAAgGJAWAAAEA9ICAIBgQFoAABAIZv8HD141eD3wa/gAAAAASUVORK5CYII=" />
+              </ui:WaitImageAppear.Image>
+              <ui:WaitImageAppear.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c54707f3-ccc5-406a-a512-78ca0081340d" Selector="&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='file_example_PDF.pdf - Adobe Acrobat Reader DC' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:WaitImageAppear.Target>
+            </ui:WaitImageAppear>
+          </ui:AnchorBase.AnchorProvider>
+        </ui:AnchorBase>
+        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="726,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[outputText2]" />
+      </Sequence>
+    </FlowStep>
+  </Flowchart>
+</Activity>
