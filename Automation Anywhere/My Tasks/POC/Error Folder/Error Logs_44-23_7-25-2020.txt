@@ -1,0 +1,9 @@
+(7/25/2020 11:44:01 PM) Error Line Number: "9" 
+Error Description: Unable to find 'user_name' TextBox. ‘Search Criteria’ did not match.
+
+(7/25/2020 11:44:07 PM) Error Line Number: "11" 
+Error Description: Image not found!
+
+(7/25/2020 11:44:38 PM) Error Line Number: "26" 
+Error Description: Unable to find PushButton. ‘Search Criteria’ did not match.
+

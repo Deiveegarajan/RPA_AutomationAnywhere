@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--type must be one of the following
+Client, PushButton, SplitButton, SpinButton, RadioButton, TextBox, ComboBox, CheckBox, stView,  ListItem, TreeView, TreeViewItem, PageTab, PageTabItem, PageTabList, Table, Cell, Menu, 
+MenuItem, ToolBar, MenuBar, Group, Graphics, ScrollBar, ProgressBar, Pane, TitleBar, 
+Window, Dialog, Document, DropList, Link, PropertyPage, StatusBar, ToolTip, Animation, Application, Border, DropDownButton, DropDownGridButton, ButtonMenu, Caret, Charactor, Chart, Clock, Column, ColumnHeader, Cursor, Diagram, Dial, SystemEquation, Grip, HelpBallon, HotkeyField, Indicator, Row, RowHeader, Separator, Slider, Sound, WhiteSpace, Image, Label, ToggleButton, PopupMenu, IPAddress, StaticText, PasswordBox, ScrollViewer, DatePicker, Calendar, CalendarDayButton, DateChooser, DateField, VScrollBar, HScrollBar, HSlider, VSlider, NumericStepper, ButtonBar, ToggleButtonBar, LinkBar, ComboBoxItem,-->
+<TestingAnywhere>
+  <ObjectMapper>
+    <SilverLight>
+      <Object class="MTM.Controls.ImageButton" type="PushButton" />
+      <Object class="Infusion.Silverlight.Controls.Ribbon.RibbonTab" type="PageTabItem" />
+      <Object class="PlayerLight.VideoProgress" type="ProgressBar" />
+      <Object class="PlayerLight.VolumeControl" type="PushButton" />
+      <Object class="Nhs.Cui.Futures.Demonstrator.Controls.NhsButton" type="PushButton" />
+      <Object class="VIBlend.Silverlight.Controls.PercentageEditor" type="TextBox" />
+      <Object class="VIBlend.Silverlight.Controls.NumberEditor" type="TextBox" />
+      <Object class="VIBlend.Silverlight.Controls.SpinEditor" type="SpinButton" />
+    </SilverLight>
+    <Flash>
+      <Object class="MovieClip" type="Animation" />
+      <Object class="StatusBar" type="StatusBar" />
+      <Object class="ToolTip" type="ToolTip" />
+      <Object class="Animation" type="Animation" />
+      <Object class="Chart" type="Chart" />
+      <Object class="AreaChart" type="Chart" />
+      <Object class="BarChart" type="Chart" />
+      <Object class="BubbleChart" type="Chart" />
+      <Object class="CandlestickChart" type="Chart" />
+      <Object class="ColumnChart" type="Chart" />
+      <Object class="HLOCChart" type="Chart" />
+      <Object class="LineChart" type="Chart" />
+      <Object class="PieChart" type="Chart" />
+      <Object class="PlotChart" type="Chart" />
+    </Flash>
+    <HTML>
+      <Object class="a" type="Link" />
+      <Object class="abbr" type="StaticText" />
+      <Object class="acronym" type="StaticText" />
+      <Object class="address" type="StaticText" />
+      <Object class="b" type="StaticText" />
+      <Object class="bdi" type="StaticText" />
+      <Object class="bdo" type="StaticText" />
+      <Object class="big" type="StaticText" />
+      <Object class="blockquote" type="StaticText" />
+      <Object class="center" type="StaticText" />
+      <Object class="cite" type="StaticText" />
+      <Object class="dd" type="StaticText" />
+      <Object class="del" type="StaticText" />
+      <Object class="dfn" type="StaticText" />
+      <Object class="dl" type="StaticText" />
+      <Object class="dt" type="StaticText" />
+      <Object class="em" type="StaticText" />
+      <Object class="figcaption" type="StaticText" />
+      <Object class="figure" type="StaticText" />
+      <Object class="font" type="StaticText" />
+      <Object class="h1" type="StaticText" />
+      <Object class="h2" type="StaticText" />
+      <Object class="h3" type="StaticText" />
+      <Object class="h4" type="StaticText" />
+      <Object class="h5" type="StaticText" />
+      <Object class="h6" type="StaticText" />
+      <Object class="i" type="StaticText" />
+      <Object class="ins" type="StaticText" />
+      <Object class="kbd" type="StaticText" />
+      <Object class="legend" type="StaticText" />
+      <Object class="mark" type="StaticText" />
+      <Object class="meter" type="StaticText" />
+      <Object class="p" type="StaticText" />
+      <Object class="pre" type="StaticText" />
+      <Object class="q" type="StaticText" />
+      <Object class="rp" type="StaticText" />
+      <Object class="rt" type="StaticText" />
+      <Object class="ruby" type="StaticText" />
+      <Object class="s" type="StaticText" />
+      <Object class="samp" type="StaticText" />
+      <Object class="script" type="StaticText" />
+      <Object class="small" type="StaticText" />
+      <Object class="strike" type="StaticText" />
+      <Object class="strong" type="StaticText" />
+      <Object class="sub" type="StaticText" />
+      <Object class="summary" type="StaticText" />
+      <Object class="sup" type="StaticText" />
+      <Object class="time" type="StaticText" />
+      <Object class="tt" type="StaticText" />
+      <Object class="u" type="StaticText" />
+      <Object class="var" type="StaticText" />
+      <Object class="wbr" type="StaticText" />
+      <Object class="div" type="Pane" />
+      <Object class="span" type="StaticText" />
+      <Object class="option" type="ListItem" />
+      <Object class="caption" type="StaticText" />
+      <Object class="code" type="StaticText" />
+      <Object class="header" type="StaticText" />
+      <Object class="input::button" type="PushButton" />
+      <Object class="input::reset" type="PushButton" />
+      <Object class="input::submit" type="PushButton" />
+      <Object class="button::submit" type="PushButton" />
+      <Object class="button::button" type="PushButton" />
+      <Object class="button::reset" type="PushButton" />
+      <Object class="canvas" type="Image" />
+      <Object class="col" type="Client" />
+      <Object class="colgroup" type="Client" />
+      <Object class="map" type="Graphics" />
+      <Object class="ol" type="ListView" />
+      <Object class="table" type="Table" />
+      <Object class="td" type="Cell" />
+      <Object class="tbody" type="Client" />
+      <Object class="textarea" type="TextBox" />
+      <Object class="tfoot" type="Client" />
+      <Object class="th" type="Cell" />
+      <Object class="tr" type="Row" />
+      <Object class="Video" type="Graphics" />
+      <Object class="input::text" type="TextBox" />
+      <Object class="input::checkbox" type="CheckBox" />
+      <Object class="input::datetime" type="TextBox" />
+      <Object class="input::date" type="TextBox" />
+      <Object class="input::datetime-local" type="TextBox" />
+      <Object class="input::email" type="TextBox" />
+      <Object class="input::image" type="Graphics" />
+      <Object class="input::month" type="TextBox" />
+      <Object class="input::number" type="TextBox" />
+      <Object class="input::password" type="TextBox" />
+      <Object class="input::radio" type="RadioButton" />
+      <Object class="input::week" type="TextBox" />
+      <Object class="label" type="Label" />
+      <Object class="img" type="Graphics" />
+      <Object class="select::select-one" type="ComboBox" />
+      <Object class="select::select-multiple" type="ListView" />
+      <Object class="textarea::textarea" type="TextBox" />
+      <Object class="ul" type="ListView" />
+      <Object class="li" type="ListItem" />
+    </HTML>
+  </ObjectMapper>
+</TestingAnywhere>

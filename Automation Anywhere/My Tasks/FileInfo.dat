@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="Demo.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/23/2020 16:09:27</Property>
+      <Property Name="RunDuration">00:00:02</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AA_Raju_Waits.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/24/2020 09:20:42</Property>
+      <Property Name="RunDuration">00:00:24</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name=" AA_Raju_ObjectCloning.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/24/2020 15:31:54</Property>
+      <Property Name="RunDuration">00:00:01</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AA_Raju_VariableOperation.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/24/2020 11:19:10</Property>
+      <Property Name="RunDuration">00:00:24</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AA_Raju_VariableCreation_List.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/24/2020 21:48:20</Property>
+      <Property Name="RunDuration">00:00:02</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AA_Raju_VariableOperation_RandomNum.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/24/2020 10:59:52</Property>
+      <Property Name="RunDuration">00:00:04</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AA_Raju_FileAndFolder.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/24/2020 12:24:29</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name=" AA_Raju_ReadFromCSVOrText.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/24/2020 17:14:31</Property>
+      <Property Name="RunDuration">00:00:10</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AA_Raju_WinowsActions.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/25/2020 09:44:25</Property>
+      <Property Name="RunDuration">00:00:23</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AA_Raju_ExtractDataFromExcel.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/25/2020 12:09:04</Property>
+      <Property Name="RunDuration">00:00:18</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AA_Raju_PDFIntegration.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/25/2020 09:45:29</Property>
+      <Property Name="RunDuration">00:00:05</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="AA_Raju_WebRecorder.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/26/2020 11:16:31</Property>
+      <Property Name="RunDuration">00:01:14</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_MRS_FTP.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/29/2020 11:44:40</Property>
+      <Property Name="RunDuration">00:01:15</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

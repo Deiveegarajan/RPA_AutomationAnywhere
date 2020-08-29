@@ -1,0 +1,3 @@
+(8/5/2020 12:28:43 PM) Error Line Number: "16" 
+Error Description: Cannot find window or application titled 'Google - Internet Explorer' that was open during recording.
+

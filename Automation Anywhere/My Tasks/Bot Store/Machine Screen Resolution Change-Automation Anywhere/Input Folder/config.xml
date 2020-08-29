@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config>
+	
+	<Screen_Resolution>
+		<Height>1600</Height>
+		<Width>900</Width>
+	</Screen_Resolution>
+	
+	<Script_Path>C:\ProgramData\AutomationAnywhere\temp</Script_Path>
+
+</config>

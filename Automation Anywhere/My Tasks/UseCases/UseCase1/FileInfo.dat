@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="AA_Raju_GenerateRandomNameAndStoreIntoExcel.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/26/2020 10:24:18</Property>
+      <Property Name="RunDuration">00:00:04</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Sample.atmx">
+    <Properties>
+      <Property Name="LastRunTime">06/25/2020 23:49:14</Property>
+      <Property Name="RunDuration">00:00:04</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_KeyStokes.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/01/2020 22:33:50</Property>
+      <Property Name="RunDuration">00:00:02</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="WebRecordingFlipKart.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/01/2020 17:30:49</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_FTP_SFTP.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/01/2020 23:32:18</Property>
+      <Property Name="RunDuration">00:00:05</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_ErrorHandling.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/01/2020 23:32:18</Property>
+      <Property Name="RunDuration">00:00:37</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_StringOperations.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/02/2020 10:41:15</Property>
+      <Property Name="RunDuration">00:00:09</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_MT.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/02/2020 11:35:51</Property>
+      <Property Name="RunDuration">00:05:37</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_ImageRecogination.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/02/2020 22:19:31</Property>
+      <Property Name="RunDuration">00:00:18</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+</Entities>

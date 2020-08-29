@@ -1,0 +1,6 @@
+(8/5/2020 2:51:15 PM) Error Line Number: "6" 
+Error Description: The Program/File 'ms-settings:display' that you are trying to open, could not be found.
+
+(8/5/2020 2:51:49 PM) Error Line Number: "25" 
+Error Description: Unable to log the text in the file.
+

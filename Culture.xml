@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+<Applications>
+	<Application name = "AllOtherApp">
+		<Cultures>
+			<Culture name="ja-jp">
+				<Action name="click">クリック</Action>
+        <Action name="togglePopup">トグル・ポップアップ</Action>
+        <Action name="open">開く</Action>
+        <Action name="close">閉じる</Action>
+			</Culture>
+		</Cultures>
+	</Application>
+	<Application name = "Oracle">
+		<Cultures>
+		<Culture name="default">
+			<Action name="click">Click</Action>
+			<Action name="togglePopup">Toggle Drop Down</Action>
+			<Action name="check">Click</Action>
+		</Culture>
+		<Culture name="ja-jp">
+			<Action name="click">Click</Action>
+			<Action name="togglePopup">Toggle Drop Down</Action>
+			<Action name="check">Click</Action>
+		</Culture>
+		</Cultures>
+	</Application>
+</Applications>
+</Configuration>

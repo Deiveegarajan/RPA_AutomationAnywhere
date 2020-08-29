@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="ST_LoginServiceNowAndNavigateToIncidents.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/29/2020 14:05:56</Property>
+      <Property Name="RunDuration">00:01:07</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_RetriveTopThreeIncidents.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/29/2020 14:08:17</Property>
+      <Property Name="RunDuration">00:02:20</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_SortAndArrangeCellsBasedOnPriorities.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/25/2020 21:02:30</Property>
+      <Property Name="RunDuration">00:02:33</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="GetDataFromExcelAndCreateNewIncidents.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/25/2020 00:49:02</Property>
+      <Property Name="RunDuration">00:01:11</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="PreRequisites.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/05/2020 16:05:49</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_GetDataFromExcelAndCreateNewIncidents.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/29/2020 14:09:34</Property>
+      <Property Name="RunDuration">00:01:15</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="MT_SERVICE.COM.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/29/2020 14:16:18</Property>
+      <Property Name="RunDuration">00:11:30</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_ExtractTableSortAndArrangeCellsBasedOnPriorities.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/29/2020 14:16:05</Property>
+      <Property Name="RunDuration">00:06:31</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_FtpConnection.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/29/2020 11:54:58</Property>
+      <Property Name="RunDuration">00:00:44</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_Delelte.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/28/2020 17:12:55</Property>
+      <Property Name="RunDuration">00:00:39</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_SendEmailToRecipient.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/29/2020 14:16:17</Property>
+      <Property Name="RunDuration">00:00:10</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_SendEmailToRecipient_Failure.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/05/2020 14:57:01</Property>
+      <Property Name="RunDuration">00:00:16</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_SetIEZoomSize.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/03/2020 10:17:14</Property>
+      <Property Name="RunDuration">00:00:09</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

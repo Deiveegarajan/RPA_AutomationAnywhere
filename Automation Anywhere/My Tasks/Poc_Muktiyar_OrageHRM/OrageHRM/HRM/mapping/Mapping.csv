@@ -1,0 +1,2 @@
+SiteUrl,User,Password,EmailTo,EmailCc,EmailBcc,BotFolderName
+https://opensource-demo.orangehrmlive.com/index.php/auth/login,Admin,admin123,muktiyar.shaik@evry.com,narahari.nusum@evry.com;anand.srivastava@evry.com,,OrangeHRM

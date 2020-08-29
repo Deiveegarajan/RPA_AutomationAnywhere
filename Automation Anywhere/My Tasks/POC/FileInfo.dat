@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="ST_OpenConfigFile.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/09/2020 21:12:41</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="MT_Poc_Bot1_ProcessProductDetails.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/13/2020 13:35:31</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="PreRequisites.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/11/2020 18:20:52</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_InfinetlyMonitorTheFolderTextFile.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/10/2020 12:34:48</Property>
+      <Property Name="RunDuration">00:01:27</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Demo.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/16/2020 00:04:53</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_InfinetlyMonitor.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/12/2020 23:53:41</Property>
+      <Property Name="RunDuration">00:01:12</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_MoveFileFromProcessToArchieve.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/11/2020 13:03:41</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="MT_Poc_Bot2_FlowChart.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/13/2020 08:56:14</Property>
+      <Property Name="RunDuration">00:03:18</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_FlowChartCreationInSpreedsheet.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/14/2020 14:35:55</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_StoreCustomerAndProductDetails.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/16/2020 12:51:33</Property>
+      <Property Name="RunDuration">00:00:14</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_GetCustomerDetailsFromConfigFile.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/16/2020 12:51:18</Property>
+      <Property Name="RunDuration">00:00:17</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="error handling.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/13/2020 01:43:51</Property>
+      <Property Name="RunDuration">00:00:18</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_ReadConfigAndProcessCustomerProducts.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/14/2020 15:46:29</Property>
+      <Property Name="RunDuration">00:00:18</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_GetProductNameAndMoveFileFromProcessToArchieve.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/13/2020 11:57:36</Property>
+      <Property Name="RunDuration">00:00:13</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="MT_InfinetelyMonitorAndProcessCustomerPoducts.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/11/2020 18:30:31</Property>
+      <Property Name="RunDuration">00:00:00</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_GetProductFileFolderAndCompanyNames.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/11/2020 18:20:57</Property>
+      <Property Name="RunDuration">00:00:04</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_FlowChartCreation.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/16/2020 12:51:41</Property>
+      <Property Name="RunDuration">00:00:07</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="OutlookV2Mbot_SendMailSample.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/14/2020 17:45:57</Property>
+      <Property Name="RunDuration">00:00:08</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_SendEmailToRecipient.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/16/2020 12:51:58</Property>
+      <Property Name="RunDuration">00:00:15</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="delete.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/15/2020 22:14:49</Property>
+      <Property Name="RunDuration">00:00:01</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_SendEmailToRecipient_Failure.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/16/2020 12:13:00</Property>
+      <Property Name="RunDuration">00:00:17</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="dlt2.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/16/2020 01:22:39</Property>
+      <Property Name="RunDuration">00:00:02</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="dlt1.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/16/2020 00:41:55</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

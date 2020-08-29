@@ -1,0 +1,6 @@
+(7/28/2020 3:01:35 PM) Error Line Number: "18" 
+Error Description: Image not found!
+
+(7/28/2020 3:01:42 PM) Error Line Number: "26" 
+Error Description: Cannot find window or application titled 'Incidents | ServiceNow - Internet Explorer' that was open during recording.
+

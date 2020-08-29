@@ -1,0 +1,6 @@
+(7/25/2020 11:12:01 PM) Error Line Number: "10" 
+Error Description: Cannot find window or application titled 'Incidents | ServiceNow - Internet Explorer' that was open during recording.
+
+(7/25/2020 11:12:22 PM) Error Line Number: "32" 
+Error Description: Unable to perform 'LeftClick' action. 
+

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="Outlook_Operations.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/14/2020 17:41:32</Property>
+      <Property Name="RunDuration">00:00:09</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

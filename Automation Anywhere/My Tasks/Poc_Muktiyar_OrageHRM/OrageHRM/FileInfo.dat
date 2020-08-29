@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="ST_Login.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/21/2020 16:56:40</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+</Entities>

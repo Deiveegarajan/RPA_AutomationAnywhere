@@ -1,0 +1,6 @@
+(7/28/2020 2:58:16 PM) Error Line Number: "15" 
+Error Description: Cannot find window or application titled 'System Administration | ServiceNow - Internet Explorer' that was open during recording.
+
+(7/28/2020 2:58:24 PM) Error Line Number: "10" 
+Error Description: Cannot find window or application titled 'Incidents | ServiceNow - Internet Explorer' that was open during recording.
+

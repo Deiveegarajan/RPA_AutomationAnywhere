@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="ST_SetIEZoomSize.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/05/2020 16:06:29</Property>
+      <Property Name="RunDuration">00:00:10</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_SetCompatibleResolution.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/05/2020 16:06:18</Property>
+      <Property Name="RunDuration">00:00:24</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_KillRunningBackgroundProcess.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/05/2020 16:05:53</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_CheckRamCompatibility.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/05/2020 16:07:14</Property>
+      <Property Name="RunDuration">00:00:44</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="ST_SendEmailToRecipient.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/05/2020 16:07:12</Property>
+      <Property Name="RunDuration">00:00:38</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="MT_SystemConfiguration.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/05/2020 16:07:14</Property>
+      <Property Name="RunDuration">00:01:25</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="testr.atmx">
+    <Properties>
+      <Property Name="LastRunTime">08/18/2020 18:30:00</Property>
+      <Property Name="RunDuration">00:00:27</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+</Entities>

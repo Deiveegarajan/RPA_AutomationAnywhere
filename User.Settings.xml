@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <Main>
+    <displaygrid>
+      <displaycolumns>
+        <filename>428@visible$1</filename>
+        <type>130@visible$2</type>
+        <repeat>202@visible$3</repeat>
+        <status>160@visible$4</status>
+        <lastruntime>100@visible$5</lastruntime>
+        <description>0@disable$6</description>
+        <createdat>0@disable$7</createdat>
+        <durationoftask>0@disable$8</durationoftask>
+        <totalclicks>0@disable$9</totalclicks>
+        <size>0@disable$10</size>
+        <replayspeed>0@disable$11</replayspeed>
+        <hotkey>0@disable$12</hotkey>
+        <schedule>0@disable$13</schedule>
+        <protectiontype>0@disable$14</protectiontype>
+      </displaycolumns>
+    </displaygrid>
+  </Main>
+  <Editor>
+    <automationanywhere>
+      <recentsavepaths>
+        <path>Automation Anywhere\My Tasks\UseCases\UseCase3_SystemConfig</path>
+        <foldername>UseCase3_SystemConfig</foldername>
+      </recentsavepaths>
+    </automationanywhere>
+    <recentfiles>
+      <item>Automation Anywhere\My Tasks\UseCases\UseCase3_SystemConfig\testr.atmx</item>
+      <item>Automation Anywhere\My Tasks\POC\ST_StoreCustomerAndProductDetails.atmx</item>
+      <item>Automation Anywhere\My Tasks\ AA_Raju_ReadFromCSVOrText.atmx</item>
+      <item>Automation Anywhere\My Tasks\POC\ST_GetProductFileFolderAndCompanyNames.atmx</item>
+      <item>Automation Anywhere\My Tasks\POC\ST_GetCustomerDetailsFromConfigFile.atmx</item>
+      <item>Automation Anywhere\My Tasks\POC\MT_InfinetelyMonitorAndProcessCustomerPoducts.atmx</item>
+      <item>Automation Anywhere\My Tasks\UseCases\UseCase1\ST_ImageRecogination.atmx</item>
+      <item>Automation Anywhere\My Tasks\UseCases\UserCase2\ST_LoginServiceNowAndNavigateToIncidents.atmx</item>
+      <item>Automation Anywhere\My Tasks\UseCases\UseCase1\Raju_MT.atmx</item>
+      <item>Automation Anywhere\My Tasks\UseCases\UseCase1\AA_Raju_GenerateRandomNameAndStoreIntoExcel.atmx</item>
+    </recentfiles>
+    <mostrecentexecutefiles>
+      <item>Automation Anywhere\My Tasks\UseCases\UseCase3_SystemConfig\testr.atmx</item>
+      <item>Automation Anywhere\My Tasks\POC\MT_InfinetelyMonitorAndProcessCustomerPoducts.atmx</item>
+      <item>Automation Anywhere\My Tasks\POC\ST_GetProductFileFolderAndCompanyNames.atmx</item>
+      <item>Automation Anywhere\My Tasks\POC\PreRequisites.atmx</item>
+      <item>Automation Anywhere\My Tasks\UseCases\UseCase3_SystemConfig\MT_SystemConfiguration.atmx</item>
+    </mostrecentexecutefiles>
+    <varwatchview>
+      <location>
+        <top>260</top>
+        <left>693</left>
+      </location>
+    </varwatchview>
+  </Editor>
+</configuration>

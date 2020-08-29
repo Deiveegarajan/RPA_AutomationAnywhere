@@ -1,0 +1,3 @@
+(7/25/2020 11:13:22 PM) Error Line Number: "33" 
+Error Description: Unable to perform 'LeftClick' action. 
+

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ROILOG>
+  <Version>1.0</Version>
+  <LOG NAM="Automation Anywhere\My Tasks\Demo.atmx" DT="06/23/2020" RUN="1" ROI="30" />
+  <LOG NAM="Automation Anywhere\My Tasks\AA_Raju_Waits.atmx" DT="06/24/2020" RUN="15" ROI="264.17" />
+  <LOG NAM="Automation Anywhere\My Tasks\ AA_Raju_ObjectCloning.atmx" DT="07/24/2020" RUN="21" ROI="429.15" />
+  <LOG NAM="Automation Anywhere\My Tasks\AA_Raju_VariableOperation.atmx" DT="06/24/2020" RUN="29" ROI="1035.84" />
+  <LOG NAM="Automation Anywhere\My Tasks\AA_Raju_VariableCreation_List.atmx" DT="06/24/2020" RUN="6" ROI="213.33" />
+  <LOG NAM="Automation Anywhere\My Tasks\AA_Raju_VariableOperation_RandomNum.atmx" DT="06/24/2020" RUN="2" ROI="46.67" />
+  <LOG NAM="Automation Anywhere\My Tasks\AA_Raju_FileAndFolder.atmx" DT="06/24/2020" RUN="21" ROI="332.48" />
+  <LOG NAM="Automation Anywhere\My Tasks\ AA_Raju_ReadFromCSVOrText.atmx" DT="06/24/2020" RUN="3" ROI="105.84" />
+  <LOG NAM="Automation Anywhere\My Tasks\AA_Raju_WinowsActions.atmx" DT="06/25/2020" RUN="4" ROI="139.17" />
+  <LOG NAM="Automation Anywhere\My Tasks\AA_Raju_ExtractDataFromExcel.atmx" DT="06/25/2020" RUN="2" ROI="153.33" />
+  <LOG NAM="Automation Anywhere\My Tasks\AA_Raju_PDFIntegration.atmx" DT="06/25/2020" RUN="1" ROI="35" />
+  <LOG NAM="Automation Anywhere\My Tasks\AA_Raju_WebRecorder.atmx" DT="06/26/2020" RUN="8" ROI="182.49" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\AA_Raju_GenerateRandomNameAndStoreIntoExcel.atmx" DT="06/26/2020" RUN="11" ROI="30992.5" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\Sample.atmx" DT="06/25/2020" RUN="2" ROI="325" />
+  <LOG NAM="C:\Users\EI11484\AppData\Local\Microsoft\Windows\INetCache\Content.Outlook\1LVU0ZO6\AA_Raju_GenerateRandomNameAndStoreIntoExcel.atmx" DT="06/26/2020" RUN="1" ROI="30" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\WebRecordingFlipKart.atmx" DT="07/01/2020" RUN="1" ROI="32.5" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\Raju_ST_KeyStokes.atmx" DT="07/01/2020" RUN="6" ROI="144.99" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\Raju_ST_FTP_SFTP.atmx" DT="07/01/2020" RUN="2" ROI="73.34" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\Raju_ST_ErrorHandling.atmx" DT="07/01/2020" RUN="2" ROI="50.83" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\Raju_ST_StringOperations.atmx" DT="07/02/2020" RUN="3" ROI="117.5" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_KeyStokes.atmx" DT="07/03/2020" RUN="8" ROI="295.01" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\Raju_MT.atmx" DT="07/02/2020" RUN="5" ROI="225.83" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_StringOperations.atmx" DT="07/02/2020" RUN="1" ROI="85.83" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_ErrorHandling.atmx" DT="07/02/2020" RUN="2" ROI="50.84" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_ExcelMacros.atmx" DT="07/02/2020" RUN="4" ROI="72.5" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_FTP_SFTP.atmx" DT="07/29/2020" RUN="4" ROI="163.34" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_IFELSE.atmx" DT="07/03/2020" RUN="3" ROI="57.49" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_Prompt.atmx" DT="07/03/2020" RUN="3" ROI="58.33" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_MouseAndKeyboardActions.atmx" DT="07/06/2020" RUN="1" ROI="30.83" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_ExcelAsDatabase.atmx" DT="07/12/2020" RUN="7" ROI="130.82" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_XMLCommands.atmx" DT="07/06/2020" RUN="1" ROI="37.5" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_SoapWebServices.atmx" DT="07/06/2020" RUN="4" ROI="73.33" />
+  <LOG NAM="Automation Anywhere\My Tasks\Raju_ST\Raju_ST_RestWebServices.atmx" DT="07/06/2020" RUN="1" ROI="30" />
+  <LOG NAM="Automation Anywhere\My Tasks\Sample Tasks\Files-Folders.atmx" DT="07/08/2020" RUN="1" ROI="30" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_OpenConfigFile.atmx" DT="07/09/2020" RUN="27" ROI="536.69" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\MT_Poc_Bot1_ProcessProductDetails.atmx" DT="07/13/2020" RUN="10" ROI="1170.84" />
+  <LOG NAM="C:\Users\EI11484\AppData\Local\Temp\Temp1_sample-bot-master.zip\sample-bot-master\My Tasks\MasterBot.atmx" DT="07/09/2020" RUN="3" ROI="121.67" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\PreRequisites.atmx" DT="08/11/2020" RUN="278" ROI="13005.36" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_InfinetlyMonitorTheFolderTextFile.atmx" DT="07/10/2020" RUN="6" ROI="249677.51" />
+  <LOG NAM="C:\Users\EI11484\Downloads\ListDemo.atmx" DT="07/10/2020" RUN="1" ROI="53.33" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\Demo.atmx" DT="07/16/2020" RUN="24" ROI="1545.83" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_InfinetlyMonitor.atmx" DT="07/12/2020" RUN="26" ROI="335071.66" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_MoveFileFromProcessToArchieve.atmx" DT="07/11/2020" RUN="3" ROI="56.66" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\MT_Poc_Bot2_FlowChart.atmx" DT="07/13/2020" RUN="10" ROI="347130.83" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_FlowChartCreationInSpreedsheet.atmx" DT="07/14/2020" RUN="9" ROI="221.67" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_StoreCustomerAndProductDetails.atmx" DT="07/16/2020" RUN="180" ROI="19666.67" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_GetCustomerDetailsFromConfigFile.atmx" DT="07/16/2020" RUN="236" ROI="22228.52" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\error handling.atmx" DT="07/13/2020" RUN="3" ROI="94.17" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_ReadConfigAndProcessCustomerProducts.atmx" DT="07/14/2020" RUN="12" ROI="3035.01" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_GetProductNameAndMoveFileFromProcessToArchieve.atmx" DT="07/13/2020" RUN="5" ROI="135" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\MT_InfinetelyMonitorAndProcessCustomerPoducts.atmx" DT="08/11/2020" RUN="192" ROI="18815.05" />
+  <LOG NAM="C:\Users\EI11484\Downloads\Trim.atmx" DT="07/13/2020" RUN="1" ROI="30" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_GetProductFileFolderAndCompanyNames.atmx" DT="08/11/2020" RUN="279" ROI="18426.69" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_FlowChartCreation.atmx" DT="07/16/2020" RUN="49" ROI="1640.82" />
+  <LOG NAM="Automation Anywhere\My Tasks\Outlook\Outlook_Operations.atmx" DT="07/14/2020" RUN="3" ROI="124.16" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\OutlookV2Mbot_SendMailSample.atmx" DT="07/14/2020" RUN="1" ROI="56.67" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_SendEmailToRecipient.atmx" DT="07/16/2020" RUN="71" ROI="4094.99" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\delete.atmx" DT="07/15/2020" RUN="1" ROI="30" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\ST_SendEmailToRecipient_Failure.atmx" DT="07/16/2020" RUN="68" ROI="3296.62" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\dlt2.atmx" DT="07/16/2020" RUN="11" ROI="184.14" />
+  <LOG NAM="Automation Anywhere\My Tasks\POC\dlt1.atmx" DT="07/16/2020" RUN="8" ROI="165.82" />
+  <LOG NAM="Automation Anywhere\My Tasks\Poc_Muktiyar_OrageHRM\OrageHRM\ST_Login.atmx" DT="07/21/2020" RUN="1" ROI="30" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\ST_LoginServiceNowAndNavigateToIncidents.atmx" DT="07/29/2020" RUN="44" ROI="1479.16" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\ST_RetriveTopThreeIncidents.atmx" DT="07/29/2020" RUN="28" ROI="2464.98" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\ST_SortAndArrangeCellsBasedOnPriorities.atmx" DT="07/25/2020" RUN="12" ROI="6659.99" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\GetDataFromExcelAndCreateNewIncidents.atmx" DT="07/25/2020" RUN="4" ROI="480.84" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\PreRequisites.atmx" DT="08/05/2020" RUN="47" ROI="964.17" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\ST_GetDataFromExcelAndCreateNewIncidents.atmx" DT="07/29/2020" RUN="12" ROI="1319.14" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\MT_SERVICE.COM.atmx" DT="07/29/2020" RUN="10" ROI="1253.34" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\ST_ExtractTableSortAndArrangeCellsBasedOnPriorities.atmx" DT="07/29/2020" RUN="10" ROI="13602.49" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\ST_FtpConnection.atmx" DT="07/29/2020" RUN="33" ROI="1180.85" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\ST_Delelte.atmx" DT="07/28/2020" RUN="2" ROI="58.33" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\ST_SendEmailToRecipient.atmx" DT="07/29/2020" RUN="3" ROI="129.17" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\ST_SendEmailToRecipient_Failure.atmx" DT="08/05/2020" RUN="6" ROI="200.84" />
+  <LOG NAM="Automation Anywhere\My Tasks\ST_MRS_FTP.atmx" DT="07/29/2020" RUN="1" ROI="90.83" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UserCase2\ST_SetIEZoomSize.atmx" DT="08/03/2020" RUN="1" ROI="30" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UseCase3_SystemConfig\ST_SetIEZoomSize.atmx" DT="08/05/2020" RUN="26" ROI="1483.31" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UseCase3_SystemConfig\ST_SetCompatibleResolution.atmx" DT="08/05/2020" RUN="28" ROI="924.16" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UseCase3_SystemConfig\ST_KillRunningBackgroundProcess.atmx" DT="08/05/2020" RUN="16" ROI="285.82" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UseCase3_SystemConfig\ST_CheckRamCompatibility.atmx" DT="08/05/2020" RUN="18" ROI="1238.34" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UseCase3_SystemConfig\ST_SendEmailToRecipient.atmx" DT="08/05/2020" RUN="16" ROI="705.83" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UseCase3_SystemConfig\MT_SystemConfiguration.atmx" DT="08/05/2020" RUN="11" ROI="1289.16" />
+  <LOG NAM="Automation Anywhere\My Tasks\UseCases\UseCase3_SystemConfig\testr.atmx" DT="08/18/2020" RUN="2" ROI="45" />
+</ROILOG>

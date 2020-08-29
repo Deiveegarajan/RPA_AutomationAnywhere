@@ -1,0 +1,51 @@
+<!--type must be one of the following
+application type with in this only
+Windows,IE,Mozilla,Chrome,AndroidBrowser,iOS,NATIVE_DEVICE,Edge
+
+Technology type must be with in following
+MSAA,UIAutomation,JAVA,SILVERLIGHT,FLASH,HTML,NATIVE_ANDROID,NATIVE_IOS,OCR
+
+PlatformType must be with in following
+DOTNET,VB,VC,WPF,SILVERLIGHT,QT,FLASH,FLEX,DELPHI,UNIFACE,JAVA,WEB,NATIVE_DEVICE,OCR
+-->
+<Technologies>
+	<Technology TechType = "JAVA" PlatformType = "JAVA" ApplicationType = "Windows">
+		<Class Name="sunawtframe"/>
+		<Class Name="sunawtwindow"/>
+		<Class Name="sunawtdialog"/>
+		<Class Name="sunawtcanvas"/>
+	</Technology>
+	<Technology TechType = "SILVERLIGHT" PlatformType = "SILVERLIGHT" ApplicationType = "IE">
+		<Class Name="microsoftsilverlight"/>
+	</Technology>
+	<Technology TechType = "FLASH" PlatformType = "FLASH" ApplicationType = "IE">
+		<Class Name="macromediaflashplayeractivex"/>
+		<Class Name="apolloruntimecontentwindow"/>
+	</Technology>
+	<Technology TechType = "HTML" PlatformType = "WEB" ApplicationType = "IE">
+		<Class Name="internet explorer_server"/>
+	</Technology>
+	<Technology TechType = "HTML" PlatformType = "WEB" ApplicationType = "Chrome">
+		<Class Name="chrome_widgetwin*"/>
+		<Class Name="chrome_renderwidgethosthwnd"/>
+	</Technology>
+	<Technology TechType = "HTML" PlatformType = "WEB" ApplicationType = "Mozilla">
+		<Class Name="mozillawindowclass"/>
+		<Class Name="mozillauiwindowclass"/>
+	</Technology>
+	<Technology TechType = "HTML" PlatformType = "WEB" ApplicationType = "Edge" ProcessName="MicrosoftEdge">
+		<Class Name="windows.ui.core.corewindow.applicationframewindow"/>	
+		<Class Name="windows.ui.core.corewindow"/>
+	</Technology>
+	<Technology TechType = "UIAutomation" PlatformType = "DOTNET" ApplicationType = "Windows">
+		<Class Name="windowsforms10*"/>
+		<Class Name="windowsforms11*"/>
+	</Technology>
+	<Technology TechType = "UIAutomation" PlatformType = "WPF" ApplicationType = "Windows">
+		<Class Name="hwndwrapper*"/>
+	</Technology>
+	<Technology TechType="MSAA" PlatformType="POWERBUILDER" ApplicationType="Windows">
+    <Class Name="pbdw*105" />
+	<Class Name="pbdw*125" />
+	  </Technology>
+</Technologies>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entities>
+  <Entity Name="Raju_ST_KeyStokes.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/03/2020 08:53:40</Property>
+      <Property Name="RunDuration">00:00:13</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_StringOperations.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/02/2020 11:30:29</Property>
+      <Property Name="RunDuration">00:00:08</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_ErrorHandling.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/02/2020 11:49:06</Property>
+      <Property Name="RunDuration">00:00:22</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_ExcelMacros.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/02/2020 11:52:20</Property>
+      <Property Name="RunDuration">00:00:01</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_FTP_SFTP.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/29/2020 11:52:38</Property>
+      <Property Name="RunDuration">00:00:09</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_IFELSE.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/03/2020 08:28:54</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_XMLCommands.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/06/2020 12:10:32</Property>
+      <Property Name="RunDuration">00:00:06</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_Prompt.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/03/2020 10:01:15</Property>
+      <Property Name="RunDuration">00:00:12</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_ExcelAsDatabase.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/12/2020 09:52:24</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_MouseAndKeyboardActions.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/06/2020 11:38:02</Property>
+      <Property Name="RunDuration">00:00:03</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_SoapWebServices.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/06/2020 16:08:05</Property>
+      <Property Name="RunDuration">00:00:26</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_RestWebServices.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/06/2020 16:17:49</Property>
+      <Property Name="RunDuration">00:00:08</Property>
+      <Property Name="Status">Complete</Property>
+    </Properties>
+  </Entity>
+  <Entity Name="Raju_ST_EmailAutomation.atmx">
+    <Properties>
+      <Property Name="LastRunTime">07/07/2020 11:57:26</Property>
+      <Property Name="RunDuration">00:00:05</Property>
+      <Property Name="Status">Failed</Property>
+    </Properties>
+  </Entity>
+</Entities>
